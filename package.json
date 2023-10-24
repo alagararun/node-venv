@@ -1,0 +1,14 @@
+{
+  "name": "node-venv",
+  "version": "1.0.0",
+  "description": "Automated node version setup",
+  "main": "venv.js",
+  "bin": {
+    "node-venv": "venv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ALAGAR",
+  "license": "MIT"
+}
