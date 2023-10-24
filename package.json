@@ -10,5 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ALAGAR",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alagararun/node-venv/issues"
+  },
+  "homepage": "https://github.com/alagararun/node-venv"
 }
