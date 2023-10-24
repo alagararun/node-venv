@@ -1,6 +1,6 @@
 {
   "name": "node-venv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Automated node version setup",
   "main": "venv.js",
   "bin": {
