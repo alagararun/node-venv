@@ -14,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/alagararun/node-venv/issues"
   },
-  "homepage": "https://github.com/alagararun/node-venv"
+  "homepage": "https://github.com/alagararun/node-venv",
+  "keywords": "Node-Venv, Simplify Node.js Environment Management, venv for node"
 }
