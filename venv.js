@@ -84,7 +84,6 @@ function activate() {
     // Check if the NVM use function already exists in .bashrc
     if (data.includes('cdnvm()')) {
       console.log('NVM use function already exists in .bashrc');
-      console.log('Activated')
     } else {
       // Append the NVM use function to the end of .bashrc
       fs.appendFile(BASHRC_PATH, NVM_USE_FUNCTION, (err) => {
@@ -95,6 +94,13 @@ function activate() {
         console.log('NVM use function added to .bashrc');
       });
     }
+    try{
+       const out = execSync(`. ~/.nvm/nvm.sh && nvm install ${ data } && nvm use`);
+    }
+    catch(e){
+      console.log('Please restart terminal.')
+    }
+    console.log('Activated');
   });
 }
 
