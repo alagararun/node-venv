@@ -94,13 +94,8 @@ function activate() {
         console.log('NVM use function added to .bashrc');
       });
     }
-    try{
-       const out = execSync(`. ~/.nvm/nvm.sh && nvm install ${ data } && nvm use`);
-    }
-    catch(e){
-      console.log('Please restart terminal.')
-    }
     console.log('Activated');
+    console.log('Please restart terminal.');
   });
 }
 
