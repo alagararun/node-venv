@@ -7,7 +7,7 @@
     "node-venv": "venv.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postuninstall": "node uninstall.js"
   },
   "author": "ALAGAR",
   "license": "MIT",
